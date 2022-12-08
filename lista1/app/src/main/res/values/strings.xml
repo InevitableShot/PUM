@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">PhysicsQuiz</string>
+    <string name="pytania">Pytania</string>
+    <string name="tak">TAK</string>
+    <string name="nie">NIE</string>
+    <string name="oszukuj">OSZUKUJ</string>
+    <string name="wyjdz">Wyjdź</string>
+    <string name="wyniki">Wyniki</string>
+</resources>
