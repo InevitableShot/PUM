@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    tools:context=".DetailFragment">
+
+    <TextView
+        android:id="@+id/fragmentDetailsTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="@string/detail_crime_title"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="7dp"
+            android:text="@string/detail_index"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/fragmentDetailsStudentIndex"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/detail_student_index"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="7dp"
+            android:text="@string/detail_status"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/fragmentDetailsStatus"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/detail_crime_status"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/fragmentDetailsDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/detail_crime_description"
+        android:textColor="@color/black"
+        android:textSize="16sp"/>
+
+</LinearLayout>

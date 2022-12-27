@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">StudentCrime</string>
+    <string name="checkicon">sprawdźIkonęStatusu</string>
+    <string name="crime_title">Przewinienie #0</string>
+    <string name="detail_crime_title">Tutaj powinien być tytuł.</string>
+    <string name="detail_index">Indeks studenta:</string>
+    <string name="detail_student_index">123456</string>
+    <string name="detail_status">Status:</string>
+    <string name="detail_crime_status">Zakończona</string>
+    <string name="detail_crime_description">Tutaj powinien być opis przewinienia.</string>
+</resources>
