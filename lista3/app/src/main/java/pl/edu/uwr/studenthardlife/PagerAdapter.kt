@@ -13,7 +13,6 @@ class PagerAdapter(private val dbHandler: DBHandler, private val number: Int) :
         val del = itemBinding.DELETE
         val edit = itemBinding.EDIT
         fun bind(text: TableList) {
-            println(text)
             itemBinding.textView.text = text.opis
         }
     }
